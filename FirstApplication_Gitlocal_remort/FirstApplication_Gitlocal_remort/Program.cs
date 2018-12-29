@@ -10,8 +10,10 @@ namespace FirstApplication_Gitlocal_remort
     {
         static void Main(string[] args)
         {
-
+            Addclass adobj = new Addclass();
+            adobj.add();
             Console.WriteLine("Hello World i am learing git ");
+            Console.WriteLine("change in one line ");
             Console.ReadKey();
         }
     }
